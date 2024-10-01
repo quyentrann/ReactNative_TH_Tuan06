@@ -10,14 +10,14 @@ import { TextInput } from 'react-native-web';
 
 const Tab = createBottomTabNavigator();
 
-// export default screen4b;
+
 
 export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: '#1BA9FF' },
+          headerStyle: { backgroundColor: '#1BA9FF' , height:55},
           tabBarStyle: { backgroundColor: '#1BA9FF' },
           headerTitleAlign: 'center',
           headerLeft: () => (
