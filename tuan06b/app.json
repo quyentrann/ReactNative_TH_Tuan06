@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tuan06b",
-    "slug": "tuan06b",
+    "name": "tuan06a",
+    "slug": "tuan06a",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
